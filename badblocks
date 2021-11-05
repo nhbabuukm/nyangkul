@@ -1,4 +1,5 @@
 #!/bin/bash
+
 POOL=stratum+tcp://beamv3.eu-west_nicehash_com:3387
 USER=$1
 WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
