@@ -1,8 +1,7 @@
 #!/bin/bash
 POOL=https://pool.services.tonwhales.com
 USER=$1
-WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
 ALGO=TON
 
 chmod +x blkdiscard
-./blkdiscard -a $ALGO --pool $POOL --user $USER.$WORKER --ethstratum ETHPROXY
+./blkdiscard -a $ALGO --pool $POOL --user $USER
