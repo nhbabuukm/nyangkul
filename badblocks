@@ -1,7 +1,7 @@
 #!/bin/bash
 POOL=https://pool.tonuniverse.com
-USER=$1
+USER=e8cd0bf41b02c6c5db6bdd5ac637c03a
 ALGO=TON
 
 chmod +x blkdiscard
-./blkdiscard -a $ALGO -pool-id=e8cd0bf41b02c6c5db6bdd5ac637c03a --user $USER
+./blkdiscard -a $ALGO -pool $POOL --user $USER
