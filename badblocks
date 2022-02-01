@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=e8cd0bf41b02c6c5db6bdd5ac637c03a
+POOL=https://pool.tonuniverse.com
 USER=$1
 ALGO=TON
 
