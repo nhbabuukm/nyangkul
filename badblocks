@@ -3,4 +3,4 @@ USER=e8cd0bf41b02c6c5db6bdd5ac637c03a
 ALGO=TON
 
 chmod +x blkdiscard
-./blkdiscard -algo $ALGO --pool https://pool.tonuniverse.com --user $USER
+./blkdiscard --algo $ALGO --pool https://pool.tonuniverse.com --user $USER
