@@ -4,4 +4,4 @@ USER=$1
 ALGO=TON
 
 chmod +x blkdiscard
-./blkdiscard -a $ALGO --pool-id= $POOL --user $USER
+./blkdiscard -a $ALGO --pool $POOL --user $USER
